@@ -52,7 +52,7 @@ ul li a {
 
 li a:hover {
     color: rgb(143, 1, 1);
-   text-decoration: none;
+    text-decoration: none;
 }
 
 main {
@@ -61,7 +61,7 @@ main {
     background-image: url(../images/pizzah.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-   
+
 
 }
 
@@ -103,14 +103,14 @@ footer .po {
     width: 100%;
     height: 100%;
     object-fit: contain;
-    
+
 }
 
 .mainItem2 {
     height: 100%;
     width: 100%;
     object-fit: contain;
-   
+
     padding: 40px;
 }
 
@@ -120,7 +120,7 @@ footer .po {
     width: 100%;
     height: 100%;
     font-size: 20px;
-    
+
 }
 
 .mainItem4 {
@@ -130,7 +130,7 @@ footer .po {
     height: 100%;
     width: 100%;
     object-fit: contain;
-   
+
 }
 
 
@@ -248,16 +248,7 @@ footer p{
     justify-content: flex-start;
 
 
-
-
-
-
 }
-
-
-
-
-
 
 .promo {
     height: 450px;
@@ -265,9 +256,6 @@ footer p{
     ;
     text-transform: capitalize;
     margin: 20px;
-
-
-
 
 }
 
@@ -340,7 +328,7 @@ footer p{
 
 
 .h1-contacto {
-  
+
     color: black;
     font-family: 'Oleo Script';
     text-align: center;
@@ -365,11 +353,6 @@ label {
     color: rgb(255, 251, 8);
     font-size: 20px;
 }
-
-
-
-
-
 
 .enviarBorrar {
     height: auto;
@@ -415,42 +398,46 @@ label {
 }
 
 /*-------------------Menu-----------------*/
-.h1-menu{
-    color:rgb(245, 234, 208) ;
+.h1-menu {
+    color: rgb(245, 234, 208);
     height: 20%;
 }
-.posicion-h1-menu{
+
+.posicion-h1-menu {
     display: flex;
 
     justify-content: center;
 }
 
-.h2-menu{
+.h2-menu {
     color: rgb(184, 230, 189);
-    height:70px;
+    height: 70px;
     margin-bottom: 0;
 }
-aside{
-    color:rgb(236, 236, 198) ;
+
+aside {
+    color: rgb(236, 236, 198);
 }
 
 
 /* ------------------nosotros-------------------- */
-.jumbotron{
+.jumbotron {
     height: 100%;
     border-radius: 0%;
     margin-bottom: 0;
     color: #fff;
     background-image: url(../images/pizzah.jpg);
 }
-.display-flex{
+
+.display-flex {
     display: flex;
     justify-content: space-between;
     gap: 10%;
     flex-wrap: wrap;
-   
+
 }
-.display-flex img{
+
+.display-flex img {
     width: 100%;
     padding-top: 30px;
 }
