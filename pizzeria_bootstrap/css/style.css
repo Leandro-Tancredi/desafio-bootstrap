@@ -1,0 +1,477 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+header {
+    background-image: linear-gradient(to right, rgb(247, 247, 4), #fff, rgb(247, 247, 4));
+
+
+
+
+}
+
+header .encabezado {
+    padding-left: 20px;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    text-transform: capitalize;
+
+}
+
+header span {
+    color: gray;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    color: coral;
+    text-decoration: none;
+    padding-left: 0%;
+    font-size: 19px;
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li a:hover {
+    color: rgb(143, 1, 1);
+   text-decoration: none;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+    background-image: url(../images/pizzah.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+
+}
+
+
+footer {
+    padding-top: 20px;
+    background-image: linear-gradient(to right, rgb(247, 247, 4), rgb(236, 209, 113));
+    color: rgb(255, 1, 1);
+    font-size: 30px;
+
+}
+
+footer .po {
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+    color: black;
+    font-size: 15px;
+}
+
+.po {
+    margin-left: 20px;
+    background-color: rgb(248, 247, 247);
+    padding-left: 2%;
+    max-width: 40%;
+
+
+}
+
+.pos {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 30px;
+    gap: 10%
+}
+
+.mainItem1 {
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    
+}
+
+.mainItem2 {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+   
+    padding: 40px;
+}
+
+.mainItem3 {
+    padding-left: 30px;
+    color: aliceblue;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    
+}
+
+.mainItem4 {
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 40px;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+   
+}
+
+
+/*@media only screen and (min-width: 320px) and (max-width:479px) 
+{              
+.mainGrid{
+    grid-template-columns: 1fr;
+    width: 90%;
+    padding: 5%;
+}
+.header p{
+   font-size: 25px;
+}
+.nav a{
+   font-size: 30px;
+}
+.nav ul{
+    flex-direction: column;
+    align-items: flex-end;
+}
+.mainItem4{
+    margin-bottom: 30px;
+}            
+footer p{
+    font-size: 11px;
+}
+}
+@media only screen and (min-width: 480px) and (max-width: 767px)
+{       .mainGrid{
+             grid-template-columns:  1fr 1fr;
+    
+            }
+        .mainItem1{
+             padding-left: 20px;
+             }
+        .mainItem3{
+             height: 150px;
+             padding-left: 20px;
+             overflow: scroll;
+             }
+        .mainItem4{
+             padding-bottom: 20px;
+             }
+        .nav a{
+             font-size: 20px;
+             }
+        .nav ul{
+             flex-direction: column;
+             padding-right: 10px;
+             align-items: flex-end;
+             flex-wrap: nowrap;
+             }
+          .header p{
+             font-size: 30px;
+             }  
+    
+
+    
+}
+@media only screen and (min-width: 768px) and (max-width:1023px)
+{
+         .nav ul{
+             flex-direction: row;
+             flex-wrap: nowrap;
+             justify-content: space-evenly;
+             padding-top: 10px;
+             padding-right: 10px;
+             }
+         .nav a{
+             font-size: 1.4em;
+           
+      
+             }
+         .header p{
+             font-size: 1.7em;
+             }
+         .mainItem1{
+             padding: 10px;
+             }
+         .mainItem3{
+             padding: 10px;
+             }
+         .mainItem4{
+             padding-bottom: 20px;
+             }
+}
+@media only screen and (min-width: 1024px)
+{
+            .mainItem1{
+                 padding: 20px;
+             }
+            .header p{
+                 margin-left: 20px;
+                 padding-left: 20px;
+             }
+
+}   -----------desactivado para maquetar con Bootstrap */
+
+
+/*----------promociones-------*/
+.promos {
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(9, 30, 219);
+    text-align: center;
+}
+
+.display-flex3 {
+    color: #fff;
+    width: 100%;
+    display: flex;
+    padding-left: 20px;
+    list-style-type: none;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+.promo {
+    height: 450px;
+    width: 45%;
+    ;
+    text-transform: capitalize;
+    margin: 20px;
+
+
+
+
+}
+
+.Item6 {
+    background-image: url(../images/pizzaB.jpg);
+    background-size: cover;
+}
+
+.Item5 {
+    color: #fff;
+    background-color: aqua;
+
+}
+
+.Item4 {
+    background-color: blue;
+    text-align: right;
+
+
+
+}
+
+.Item3 {
+    background-color: violet;
+    background-color: red;
+    background-image: url(../images/pizzaA.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.Item2 {
+    background-image: url(../images/pizza1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+
+.Item1 {
+
+    background-color: black;
+
+}
+
+.Item1 p {
+    padding-left: 50%;
+    padding-top: 50px;
+}
+
+.Item4 p {
+    padding-right: 50%;
+    padding-top: 50px;
+}
+
+.Item5 p {
+    padding-left: 50%;
+    padding-top: 50px;
+}
+
+
+/*------------------contacto------------------*/
+.contacto {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.h1-contacto {
+  
+    color: black;
+    font-family: 'Oleo Script';
+    text-align: center;
+    font-size: 50px;
+    animation-name: parpadeo;
+    animation-duration: 0.3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes parpadeo {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+
+}
+
+label {
+    color: rgb(255, 251, 8);
+    font-size: 20px;
+}
+
+
+
+
+
+
+.enviarBorrar {
+    height: auto;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+
+}
+
+.enviar {
+    border: #fff solid;
+    width: 60px;
+    background-color: yellow;
+    border-radius: 10px;
+    height: 30px;
+
+
+}
+
+.enviar:hover {
+    transform: scale(1.5);
+    transition: 0.3;
+
+}
+
+.borrar {
+    border: #fff solid;
+    width: 60px;
+    background-color: yellow;
+    border-radius: 10px;
+    height: 30px;
+
+
+}
+
+.borrar:hover {
+    transform: scale(1.5);
+    transition: 0.3;
+
+}
+
+/*-------------------Menu-----------------*/
+.h1-menu{
+    color:rgb(245, 234, 208) ;
+    height: 20%;
+}
+.posicion-h1-menu{
+    display: flex;
+
+    justify-content: center;
+}
+
+.h2-menu{
+    color: rgb(184, 230, 189);
+    height:70px;
+    margin-bottom: 0;
+}
+aside{
+    color:rgb(236, 236, 198) ;
+}
+
+
+/* ------------------nosotros-------------------- */
+.jumbotron{
+    height: 100%;
+    border-radius: 0%;
+    margin-bottom: 0;
+    color: #fff;
+    background-image: url(../images/pizzah.jpg);
+}
+.display-flex{
+    display: flex;
+    justify-content: space-between;
+    gap: 10%;
+    flex-wrap: wrap;
+   
+}
+.display-flex img{
+    width: 100%;
+    padding-top: 30px;
+}
+
+
+/*.container {  display: grid;
+    grid-template-columns: 1fr 1.6fr 0.5fr 0.1fr 3.1fr 1fr;
+    grid-template-rows: 0.1fr 1fr 0.1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "header header nav nav nav nav"
+      "main main main main main main"
+      "footer footer footer footer footer footer";
+  }
+  
+  footer { grid-area: footer; }
+  
+  main { grid-area: main; }
+  
+  .header { grid-area: header; }
+  
+  .nav { grid-area: nav; }
+   ------------- desactivado para maquetar con Bootstrap*/
